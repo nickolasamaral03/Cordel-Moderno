@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1{
+    text-transform: uppercase;
+    font-size: 3.0rem;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+header > h3{
+    padding-bottom: 30px;
+    margin-top: 10px; 
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.3rem;
+}
+
+ a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(211, 158, 11);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: 'Sriracha', cursive;
+   
+}
+
+section.imagem{
+    background-color: rgb(75, 73, 73);
+    color: white;
+    background-attachment: fixedg;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.imagem > p {
+    width: 24%;
+    background-color: rgba(10, 10, 10, 0.226);
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+#img01{
+    background-image: url('imagens/joaninha.jpg');
+    background-position: center left;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+}
+
+#img02{
+    background-image: url('imagens/folhaDePapel.jpg');
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 3vh;
+}
+    
