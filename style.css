@@ -55,7 +55,7 @@ section{
 section.imagem{
     background-color: rgb(75, 73, 73);
     color: white;
-    background-attachment: fixedg;
+    background-attachment: fixed;
 }
 
 section > p{
